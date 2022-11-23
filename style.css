@@ -5,14 +5,28 @@
   max-width: 980px;
   display: flex;
   margin: 0 auto;
+  flex-wrap: wrap;
+  padding: 20px;
 }
+/*.head {
+  background-color: darkkhaki;
+ flex: 1 1 100% ;
+}*/
 .sidebar {
-  flex: 0 0 250px;
-  margin: 20px;
+  flex: 0 0 30%;
+  margin: 10px;
   background-color: aquamarine;
 }
-.content {
+.box {
+  flex: 0 0 60%;
+  background-color: chartreuse;
+}
+/*.content {
   margin: 20px 5px;
   flex: 1 1 0px;
   background-color: chartreuse;
-}
+}*/
+/*.footer {
+ flex: 0 0 100%;
+ background-color: darksalmon;
+}*/
