@@ -1,0 +1,18 @@
+*{
+  box-sizing: border-box;
+}
+.container {
+  max-width: 980px;
+  display: flex;
+  margin: 0 auto;
+}
+.sidebar {
+  flex: 0 0 250px;
+  margin: 20px;
+  background-color: aquamarine;
+}
+.content {
+  margin: 20px 5px;
+  flex: 1 1 0px;
+  background-color: chartreuse;
+}
