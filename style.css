@@ -29,11 +29,16 @@
 .content {
   flex: 1 1 0px;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap ;
   margin: 10px;
 }
 .box {
-  flex: 1 1 25%;
+  flex: 0 0 65%;
+  background-color: chartreuse;
+  margin: 5px;
+}
+.box1 {
+  flex: 0 0 25%;
   background-color: chartreuse;
   margin: 5px;
 }
