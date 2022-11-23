@@ -12,14 +12,30 @@
   background-color: darkkhaki;
  flex: 1 1 100% ;
 }*/
+.header{
+  flex: 1 1 100%;
+  background-color: brown;
+}
+.footer {
+  flex: 1 1 100%;
+  background-color: brown;
+}
+
 .sidebar {
-  flex: 0 0 30%;
+  flex: 0 0 200px;
   margin: 10px;
   background-color: aquamarine;
 }
+.content {
+  flex: 1 1 0px;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
 .box {
-  flex: 0 0 60%;
+  flex: 1 1 25%;
   background-color: chartreuse;
+  margin: 5px;
 }
 /*.content {
   margin: 20px 5px;
